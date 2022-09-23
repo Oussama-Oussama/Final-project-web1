@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop-Menu</title>
+    <link rel="stylesheet" href="../css/menu.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- <nav>
+      <div class="logo-sym">
+        <div class="logo-main">
+          <img src="../res/imgStore.png" alt="" />
+        </div>
+      </div>
+
+      <div class="menu">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="">Menu</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <i class="bi bi-list" id="appearSlide"></i>
+
+    </nav> -->
+    <nav id="nav">
+      <div class="icon">
+        <div class="logo-main">
+          <img src="../res/imgStore.png" alt="" />
+        </div>
+        <h1 id="logosym">Pets Store</h1>
+
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./menu.html">Menu</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="search">
+        <input
+          type="search"
+          class="srch"
+          name=""
+          placeholder="What's your interest"
+        />
+        <a href="#">
+          <button class="butn">search</button>
+          <button class="srchsym"><i class="bi bi-search"></i></button>
+        </a>
+      </div>
+      <i class="bi bi-list" id="listMenu"></i>
+    </nav>
+
+    <section class="slide-left" id="slideLeft">
+      <div class="logo">
+        <i class="bi bi-list" id="appear"></i>
+        <span>Shop</span>
+      </div>
+      <!-- <div class="cn-symbole">
+        <div class="symbole">
+          <img src="../res/imgStore.png" alt="" />
+        </div>
+      </div> -->
+      <ul>
+        <li id="dogss">
+          <i class="bi bi-cart4"></i>
+          <span>DOGS</span>
+        </li>
+        <li id="catss">
+          <i class="bi bi-cart4"></i>
+          <span>CAT</span>
+        </li>
+        <li id="birdss">
+          <i class="bi bi-cart4"></i>
+          <span>BIRD</span>
+        </li>
+        <li id="fishess">
+          <i class="bi bi-cart4"></i>
+          <span>FISH</span>
+        </li>
+      </ul>
+    </section>
+    <div id="main">
+      <div class="prox">
+        <div class="money">
+          <div class="anim">
+            <span>Dog :</span>
+            <input type="button" id="adog" />
+          </div>
+          <div class="anim">
+            <span>Cat :</span>
+            <input type="button" id="acat" />
+          </div>
+          <div class="anim">
+            <span>Bird :</span>
+            <input type="button" id="abird" />
+          </div>
+          <div class="anim">
+            <span>Fish :</span>
+            <input type="button" id="afish" />
+          </div>
+          <div class="anim">
+            <span>Total :</span>
+            <input type="button" id="atotal" />
+          </div>
+        </div>
+      </div>
+      <div id="elements"></div>
+      <div id="knowAbout"></div>
+    </div>
+    <script src="../js/menu.js"></script>
+  </body>
+</html>
+<!-- src="../js/menu.js" defer -->
